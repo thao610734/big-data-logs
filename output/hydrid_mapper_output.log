@@ -1,0 +1,127 @@
+2020-06-08 12:13:33,856 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2020-06-08 12:13:34,008 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2020-06-08 12:13:34,011 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system started
+2020-06-08 12:13:34,034 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2020-06-08 12:13:34,034 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1591632421811_0002, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@2f51cd27)
+2020-06-08 12:13:34,206 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2020-06-08 12:13:34,697 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-root/nm-local-dir/usercache/root/appcache/application_1591632421811_0002
+2020-06-08 12:13:35,315 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2020-06-08 12:13:36,000 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2020-06-08 12:13:36,021 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2020-06-08 12:13:36,245 INFO [main] org.apache.hadoop.mapred.MapTask: Processing split: hdfs://dafd8627007e:9000/user/cloudera/amazon/input/test_data:0+112
+2020-06-08 12:13:36,398 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2020-06-08 12:13:36,399 INFO [main] org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2020-06-08 12:13:36,399 INFO [main] org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2020-06-08 12:13:36,399 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2020-06-08 12:13:36,399 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2020-06-08 12:13:36,410 INFO [main] org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2020-06-08 12:13:36,441 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: ---MAPPER OUTPUT---
+2020-06-08 12:13:36,446 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B11, C31), 1)>
+2020-06-08 12:13:36,446 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B11, A10), 1)>
+2020-06-08 12:13:36,446 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B11, D76), 1)>
+2020-06-08 12:13:36,447 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B11, A12), 1)>
+2020-06-08 12:13:36,447 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B11, B12), 1)>
+2020-06-08 12:13:36,447 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B11, C31), 1)>
+2020-06-08 12:13:36,447 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B11, D76), 1)>
+2020-06-08 12:13:36,447 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B11, C31), 1)>
+2020-06-08 12:13:36,447 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B11, A10), 1)>
+2020-06-08 12:13:36,447 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B11, B12), 1)>
+2020-06-08 12:13:36,447 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B11, D76), 1)>
+2020-06-08 12:13:36,447 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B11, C31), 1)>
+2020-06-08 12:13:36,447 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((C31, A10), 1)>
+2020-06-08 12:13:36,447 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((C31, D76), 1)>
+2020-06-08 12:13:36,447 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((C31, A12), 1)>
+2020-06-08 12:13:36,448 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((C31, B12), 1)>
+2020-06-08 12:13:36,448 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A10, D76), 1)>
+2020-06-08 12:13:36,448 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A10, A12), 1)>
+2020-06-08 12:13:36,448 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A10, B12), 1)>
+2020-06-08 12:13:36,448 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A10, C31), 1)>
+2020-06-08 12:13:36,448 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A10, D76), 1)>
+2020-06-08 12:13:36,448 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A10, C31), 1)>
+2020-06-08 12:13:36,448 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((D76, A12), 1)>
+2020-06-08 12:13:36,448 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((D76, B12), 1)>
+2020-06-08 12:13:36,448 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((D76, C31), 1)>
+2020-06-08 12:13:36,448 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A12, B12), 1)>
+2020-06-08 12:13:36,448 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A12, C31), 1)>
+2020-06-08 12:13:36,449 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A12, D76), 1)>
+2020-06-08 12:13:36,449 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A12, C31), 1)>
+2020-06-08 12:13:36,449 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A12, A10), 1)>
+2020-06-08 12:13:36,449 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A12, B12), 1)>
+2020-06-08 12:13:36,449 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A12, D76), 1)>
+2020-06-08 12:13:36,449 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A12, C31), 1)>
+2020-06-08 12:13:36,449 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A12, B11), 1)>
+2020-06-08 12:13:36,449 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B12, C31), 1)>
+2020-06-08 12:13:36,449 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B12, D76), 1)>
+2020-06-08 12:13:36,449 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B12, C31), 1)>
+2020-06-08 12:13:36,449 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B12, A10), 1)>
+2020-06-08 12:13:36,449 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((C31, D76), 1)>
+2020-06-08 12:13:36,450 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((D76, C31), 1)>
+2020-06-08 12:13:36,450 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((D76, A10), 1)>
+2020-06-08 12:13:36,450 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((D76, B12), 1)>
+2020-06-08 12:13:36,450 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((C31, A10), 1)>
+2020-06-08 12:13:36,450 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((C31, B12), 1)>
+2020-06-08 12:13:36,450 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((C31, D76), 1)>
+2020-06-08 12:13:36,450 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A10, B12), 1)>
+2020-06-08 12:13:36,450 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A10, D76), 1)>
+2020-06-08 12:13:36,450 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A10, C31), 1)>
+2020-06-08 12:13:36,450 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A10, B11), 1)>
+2020-06-08 12:13:36,450 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B12, D76), 1)>
+2020-06-08 12:13:36,450 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B12, C31), 1)>
+2020-06-08 12:13:36,450 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B12, B11), 1)>
+2020-06-08 12:13:36,451 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((D76, C31), 1)>
+2020-06-08 12:13:36,451 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((D76, B11), 1)>
+2020-06-08 12:13:36,451 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((C31, B11), 1)>
+2020-06-08 12:13:36,451 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A10, D76), 1)>
+2020-06-08 12:13:36,451 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A10, D76), 1)>
+2020-06-08 12:13:36,451 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A10, B12), 1)>
+2020-06-08 12:13:36,451 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A10, B11), 1)>
+2020-06-08 12:13:36,451 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A10, C31), 1)>
+2020-06-08 12:13:36,451 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A10, D76), 1)>
+2020-06-08 12:13:36,451 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A10, B12), 1)>
+2020-06-08 12:13:36,452 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A10, C31), 1)>
+2020-06-08 12:13:36,452 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A10, B11), 1)>
+2020-06-08 12:13:36,452 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A10, A12), 1)>
+2020-06-08 12:13:36,452 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A10, C31), 1)>
+2020-06-08 12:13:36,452 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A10, B12), 1)>
+2020-06-08 12:13:36,452 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A10, B11), 1)>
+2020-06-08 12:13:36,452 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((D76, B12), 1)>
+2020-06-08 12:13:36,452 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((D76, B11), 1)>
+2020-06-08 12:13:36,452 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((D76, C31), 1)>
+2020-06-08 12:13:36,452 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B12, B11), 1)>
+2020-06-08 12:13:36,452 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B12, C31), 1)>
+2020-06-08 12:13:36,452 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B12, D76), 1)>
+2020-06-08 12:13:36,452 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B11, C31), 1)>
+2020-06-08 12:13:36,453 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B11, D76), 1)>
+2020-06-08 12:13:36,453 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B11, B12), 1)>
+2020-06-08 12:13:36,453 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B11, C31), 1)>
+2020-06-08 12:13:36,458 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((C31, D76), 1)>
+2020-06-08 12:13:36,458 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((C31, B12), 1)>
+2020-06-08 12:13:36,458 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((D76, B12), 1)>
+2020-06-08 12:13:36,459 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((D76, C31), 1)>
+2020-06-08 12:13:36,459 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((D76, B11), 1)>
+2020-06-08 12:13:36,459 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((D76, A12), 1)>
+2020-06-08 12:13:36,459 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((D76, C31), 1)>
+2020-06-08 12:13:36,459 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((D76, B12), 1)>
+2020-06-08 12:13:36,459 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((D76, B11), 1)>
+2020-06-08 12:13:36,459 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B12, C31), 1)>
+2020-06-08 12:13:36,459 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B12, B11), 1)>
+2020-06-08 12:13:36,459 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B12, A12), 1)>
+2020-06-08 12:13:36,459 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B12, C31), 1)>
+2020-06-08 12:13:36,459 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((C31, B11), 1)>
+2020-06-08 12:13:36,459 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((C31, A12), 1)>
+2020-06-08 12:13:36,460 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B11, A12), 1)>
+2020-06-08 12:13:36,460 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B11, C31), 1)>
+2020-06-08 12:13:36,460 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B11, B12), 1)>
+2020-06-08 12:13:36,460 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A12, C31), 1)>
+2020-06-08 12:13:36,460 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A12, B12), 1)>
+2020-06-08 12:13:36,460 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((A12, B11), 1)>
+2020-06-08 12:13:36,460 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((C31, B12), 1)>
+2020-06-08 12:13:36,460 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((C31, B11), 1)>
+2020-06-08 12:13:36,460 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Map: <((B12, B11), 1)>
+2020-06-08 12:13:36,470 INFO [main] org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2020-06-08 12:13:36,470 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2020-06-08 12:13:36,470 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 1224; bufvoid = 104857600
+2020-06-08 12:13:36,470 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 26213992(104855968); length = 405/6553600
+2020-06-08 12:13:36,503 INFO [main] org.apache.hadoop.mapred.MapTask: Finished spill 0
+2020-06-08 12:13:36,519 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1591632421811_0002_m_000000_0 is done. And is in the process of committing
+2020-06-08 12:13:36,636 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1591632421811_0002_m_000000_0' done.

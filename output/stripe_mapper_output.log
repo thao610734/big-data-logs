@@ -1,0 +1,53 @@
+2020-06-07 21:21:00,921 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2020-06-07 21:21:01,080 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2020-06-07 21:21:01,081 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system started
+2020-06-07 21:21:01,101 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2020-06-07 21:21:01,101 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1591578330124_0004, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@95063e9)
+2020-06-07 21:21:01,261 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2020-06-07 21:21:01,683 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-root/nm-local-dir/usercache/root/appcache/application_1591578330124_0004
+2020-06-07 21:21:02,284 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2020-06-07 21:21:02,951 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2020-06-07 21:21:02,969 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2020-06-07 21:21:03,207 INFO [main] org.apache.hadoop.mapred.MapTask: Processing split: hdfs://dafd8627007e:9000/user/cloudera/amazon/input/test_data:0+112
+2020-06-07 21:21:03,262 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2020-06-07 21:21:03,262 INFO [main] org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2020-06-07 21:21:03,263 INFO [main] org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2020-06-07 21:21:03,263 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2020-06-07 21:21:03,263 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2020-06-07 21:21:03,273 INFO [main] org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2020-06-07 21:21:03,303 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: ---MAPPER OUTPUT---
+2020-06-07 21:21:03,311 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <B11, [(B12=2), (A10=2), (A12=1), (D76=3), (C31=4)]>
+2020-06-07 21:21:03,311 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <C31, [(B12=1), (A10=1), (A12=1), (D76=1)]>
+2020-06-07 21:21:03,311 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <A10, [(B12=1), (A12=1), (D76=2), (C31=2)]>
+2020-06-07 21:21:03,311 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <D76, [(B12=1), (A12=1), (C31=1)]>
+2020-06-07 21:21:03,312 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <A12, [(B11=1), (A10=1), (B12=2), (D76=2), (C31=3)]>
+2020-06-07 21:21:03,312 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <B12, [(A10=1), (D76=1), (C31=2)]>
+2020-06-07 21:21:03,312 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <C31, [(D76=1)]>
+2020-06-07 21:21:03,312 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <D76, [(B12=1), (A10=1), (C31=1)]>
+2020-06-07 21:21:03,312 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <C31, [(B12=1), (A10=1), (D76=1)]>
+2020-06-07 21:21:03,312 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <A10, [(B11=1), (B12=1), (D76=1), (C31=1)]>
+2020-06-07 21:21:03,312 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <B12, [(B11=1), (D76=1), (C31=1)]>
+2020-06-07 21:21:03,312 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <D76, [(B11=1), (C31=1)]>
+2020-06-07 21:21:03,312 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <C31, [(B11=1)]>
+2020-06-07 21:21:03,313 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <B11, []>
+2020-06-07 21:21:03,313 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <A10, [(B11=3), (B12=3), (A12=1), (D76=3), (C31=3)]>
+2020-06-07 21:21:03,313 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <D76, []>
+2020-06-07 21:21:03,313 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <D76, [(B11=1), (B12=1), (C31=1)]>
+2020-06-07 21:21:03,313 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <B12, [(B11=1), (D76=1), (C31=1)]>
+2020-06-07 21:21:03,314 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <B11, [(B12=1), (D76=1), (C31=2)]>
+2020-06-07 21:21:03,314 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <C31, [(B12=1), (D76=1)]>
+2020-06-07 21:21:03,314 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <D76, [(B11=2), (B12=2), (A12=1), (C31=2)]>
+2020-06-07 21:21:03,314 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <B12, [(B11=1), (A12=1), (C31=2)]>
+2020-06-07 21:21:03,314 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <C31, [(B11=1), (A12=1)]>
+2020-06-07 21:21:03,314 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <B11, [(B12=1), (A12=1), (C31=1)]>
+2020-06-07 21:21:03,314 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <A12, [(B11=1), (B12=1), (C31=1)]>
+2020-06-07 21:21:03,314 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <C31, [(B11=1), (B12=1)]>
+2020-06-07 21:21:03,314 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <B12, [(B11=1)]>
+2020-06-07 21:21:03,315 INFO [main] edu.mum.cs522.project1.part3.StripeAlgo$Map: <B11, []>
+2020-06-07 21:21:03,327 INFO [main] org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2020-06-07 21:21:03,327 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2020-06-07 21:21:03,327 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 824; bufvoid = 104857600
+2020-06-07 21:21:03,327 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 26214288(104857152); length = 109/6553600
+2020-06-07 21:21:03,339 INFO [main] org.apache.hadoop.mapred.MapTask: Finished spill 0
+2020-06-07 21:21:03,355 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1591578330124_0004_m_000000_0 is done. And is in the process of committing
+2020-06-07 21:21:03,442 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1591578330124_0004_m_000000_0' done.

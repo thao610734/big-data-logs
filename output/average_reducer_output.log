@@ -1,0 +1,192 @@
+2020-06-07 21:07:08,781 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2020-06-07 21:07:08,940 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2020-06-07 21:07:08,940 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system started
+2020-06-07 21:07:08,967 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2020-06-07 21:07:08,967 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1591578330124_0001, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@2f51cd27)
+2020-06-07 21:07:09,145 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2020-06-07 21:07:09,674 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-root/nm-local-dir/usercache/root/appcache/application_1591578330124_0001
+2020-06-07 21:07:10,523 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2020-06-07 21:07:11,357 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2020-06-07 21:07:11,390 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2020-06-07 21:07:11,409 INFO [main] org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@2e826935
+2020-06-07 21:07:12,952 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2020-06-07 21:07:12,964 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: ---REDUCER OUTPUT---
+2020-06-07 21:07:12,964 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <0x503e4fce.virnxx2.adsl-dhcp.tele.dk, 3947/3(=1315.6666)>
+2020-06-07 21:07:12,966 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <1-320.cnc.bc.ca, 43518/4(=10879.5)>
+2020-06-07 21:07:12,966 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <1-729.cnc.bc.ca, 22838/7(=3262.5715)>
+2020-06-07 21:07:12,975 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <10.0.0.153, 1200145/270(=4444.9814)>
+2020-06-07 21:07:12,975 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <12.22.207.235, 7368/1(=7368.0)>
+2020-06-07 21:07:12,976 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <128.227.88.79, 81785/14(=5841.7856)>
+2020-06-07 21:07:12,976 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <142.27.64.35, 13465/7(=1923.5714)>
+2020-06-07 21:07:12,976 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <145.253.208.9, 26098/7(=3728.2856)>
+2020-06-07 21:07:12,977 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <1513.cps.virtua.com.br, 309/1(=309.0)>
+2020-06-07 21:07:12,977 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <194.151.73.43, 43518/4(=10879.5)>
+2020-06-07 21:07:12,977 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <195.11.231.210, 6032/1(=6032.0)>
+2020-06-07 21:07:12,977 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <195.230.181.122, 2300/1(=2300.0)>
+2020-06-07 21:07:12,977 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <195.246.13.119, 61543/12(=5128.5835)>
+2020-06-07 21:07:12,978 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <2-110.cnc.bc.ca, 87036/11(=7912.364)>
+2020-06-07 21:07:12,978 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <2-238.cnc.bc.ca, 3169/1(=3169.0)>
+2020-06-07 21:07:12,979 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <200-55-104-193.dsl.prima.net.ar, 28333/13(=2179.4614)>
+2020-06-07 21:07:12,979 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <200.160.249.68.bmf.com.br, 13269/2(=6634.5)>
+2020-06-07 21:07:12,979 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <200.222.33.33, 2300/1(=2300.0)>
+2020-06-07 21:07:12,979 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <203.147.138.233, 28136/13(=2164.3076)>
+2020-06-07 21:07:12,980 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <206-15-133-153.dialup.ziplink.net, 0/1(=0.0)>
+2020-06-07 21:07:12,980 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <206-15-133-154.dialup.ziplink.net, 0/1(=0.0)>
+2020-06-07 21:07:12,980 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <206-15-133-181.dialup.ziplink.net, 0/1(=0.0)>
+2020-06-07 21:07:12,980 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <207.195.59.160, 81061/20(=4053.05)>
+2020-06-07 21:07:12,981 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <208-186-146-13.nrp3.brv.mn.frontiernet.net, 3378/2(=1689.0)>
+2020-06-07 21:07:12,981 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <208-38-57-205.ip.cal.radiant.net, 42134/11(=3830.3635)>
+2020-06-07 21:07:12,981 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <208.247.148.12, 12268/4(=3067.0)>
+2020-06-07 21:07:12,981 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <212.21.228.26, 2869/1(=2869.0)>
+2020-06-07 21:07:12,982 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <212.92.37.62, 72981/14(=5212.9287)>
+2020-06-07 21:07:12,982 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <213.181.81.4, 7649/1(=7649.0)>
+2020-06-07 21:07:12,982 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <216-160-111-121.tukw.qwest.net, 27810/12(=2317.5)>
+2020-06-07 21:07:12,983 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <216.139.185.45, 6051/1(=6051.0)>
+2020-06-07 21:07:12,983 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <219.95.17.51, 3169/1(=3169.0)>
+2020-06-07 21:07:12,983 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <3_343_lt_someone, 62772/10(=6277.2)>
+2020-06-07 21:07:12,983 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <4.37.97.186, 2446/1(=2446.0)>
+2020-06-07 21:07:12,984 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <61.165.64.6, 12224/4(=3056.0)>
+2020-06-07 21:07:12,984 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <61.9.4.61, 7936/3(=2645.3333)>
+2020-06-07 21:07:12,984 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <64-249-27-114.client.dsl.net, 7368/1(=7368.0)>
+2020-06-07 21:07:12,984 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <64-93-34-186.client.dsl.net, 2869/1(=2869.0)>
+2020-06-07 21:07:12,998 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <64.242.88.10, 5745035/452(=12710.255)>
+2020-06-07 21:07:12,998 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <64.246.94.141, 0/1(=0.0)>
+2020-06-07 21:07:12,998 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <64.246.94.152, 0/1(=0.0)>
+2020-06-07 21:07:12,998 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <65-37-13-251.nrp2.roc.ny.frontiernet.net, 27671/5(=5534.2)>
+2020-06-07 21:07:12,999 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <66-194-6-70.gen.twtelecom.net, 9507/3(=3169.0)>
+2020-06-07 21:07:12,999 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <66-194-6-71.gen.twtelecom.net, 3169/1(=3169.0)>
+2020-06-07 21:07:12,999 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <66-194-6-79.gen.twtelecom.net, 6338/2(=3169.0)>
+2020-06-07 21:07:12,999 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <66.213.206.2, 3169/1(=3169.0)>
+2020-06-07 21:07:12,999 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <67.131.107.5, 16465/3(=5488.3335)>
+2020-06-07 21:07:12,999 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <68-174-110-154.nyc.rr.com, 3947/3(=1315.6666)>
+2020-06-07 21:07:12,999 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <80-219-148-207.dclient.hispeed.ch, 0/1(=0.0)>
+2020-06-07 21:07:13,000 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <80.58.14.235.proxycache.rima-tde.net, 11985/4(=2996.25)>
+2020-06-07 21:07:13,000 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <80.58.33.42.proxycache.rima-tde.net, 17803/3(=5934.3335)>
+2020-06-07 21:07:13,000 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <80.58.35.111.proxycache.rima-tde.net, 4114/1(=4114.0)>
+2020-06-07 21:07:13,000 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <92-moc-6.acn.waw.pl, 9725/3(=3241.6667)>
+2020-06-07 21:07:13,000 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <a213-84-36-192.adsl.xs4all.nl, 3169/1(=3169.0)>
+2020-06-07 21:07:13,000 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <acbf6930.ipt.aol.com, 11763/2(=5881.5)>
+2020-06-07 21:07:13,001 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <adsl-157-26-153.msy.bellsouth.net, 8568/2(=4284.0)>
+2020-06-07 21:07:13,001 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <adsl-64-173-42-65.dsl.snfc21.pacbell.net, 2300/1(=2300.0)>
+2020-06-07 21:07:13,001 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <alille-251-1-2-197.w82-124.abo.wanadoo.fr, 2869/1(=2869.0)>
+2020-06-07 21:07:13,001 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <archserve.id.ucsb.edu, 3947/2(=1973.5)>
+2020-06-07 21:07:13,002 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <barrie-ppp108371.sympatico.ca, 12067/4(=3016.75)>
+2020-06-07 21:07:13,002 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <bh02i525f01.au.ibm.com, 2300/1(=2300.0)>
+2020-06-07 21:07:13,002 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <c-24-11-14-147.client.comcast.net, 3947/2(=1973.5)>
+2020-06-07 21:07:13,002 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <c-24-20-163-223.client.comcast.net, 35524/7(=5074.857)>
+2020-06-07 21:07:13,002 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <c-411472d5.04-138-73746f22.cust.bredbandsbolaget.se, 2869/1(=2869.0)>
+2020-06-07 21:07:13,002 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <cacher2-ext.wise.edt.ericsson.se, 2869/1(=2869.0)>
+2020-06-07 21:07:13,003 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <calcite.rhyolite.com, 75383/4(=18845.75)>
+2020-06-07 21:07:13,003 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <cpe-203-51-137-224.vic.bigpond.net.au, 41851/10(=4185.1)>
+2020-06-07 21:07:13,004 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <cr020r01-3.sac.overture.com, 627328/44(=14257.454)>
+2020-06-07 21:07:13,005 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <crawl24-public.alexa.com, 64972/9(=7219.1113)>
+2020-06-07 21:07:13,005 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <d207-6-50-215.bchsia.telus.net, 3095/1(=3095.0)>
+2020-06-07 21:07:13,005 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <d207-6-9-183.bchsia.telus.net, 10281/3(=3427.0)>
+2020-06-07 21:07:13,005 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <d97082.upc-d.chello.nl, 7368/1(=7368.0)>
+2020-06-07 21:07:13,005 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <dialup-5-81.tulane.edu, 27978/5(=5595.6)>
+2020-06-07 21:07:13,006 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <dsl-80-43-113-44.access.uk.tiscali.com, 7125/3(=2375.0)>
+2020-06-07 21:07:13,006 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <fw.aub.dk, 13269/2(=6634.5)>
+2020-06-07 21:07:13,006 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <fw.kcm.org, 8568/2(=4284.0)>
+2020-06-07 21:07:13,006 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <fw1.millardref.com, 51879/7(=7411.2856)>
+2020-06-07 21:07:13,006 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <grandpa.mmlc.northwestern.edu, 3947/2(=1973.5)>
+2020-06-07 21:07:13,006 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <h194n2fls308o1033.telia.com, 0/1(=0.0)>
+2020-06-07 21:07:13,007 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <h24-68-45-227.gv.shawcable.net, 20356/3(=6785.3335)>
+2020-06-07 21:07:13,007 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <h24-70-56-49.ca.shawcable.net, 27054/7(=3864.8572)>
+2020-06-07 21:07:13,008 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <h24-70-69-74.ca.shawcable.net, 150461/32(=4701.9062)>
+2020-06-07 21:07:13,010 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <h24-71-236-129.ca.shawcable.net, 250905/51(=4919.706)>
+2020-06-07 21:07:13,010 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <h24-71-249-14.ca.shawcable.net, 26904/6(=4484.0)>
+2020-06-07 21:07:13,010 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <home.yeungs.net, 2300/1(=2300.0)>
+2020-06-07 21:07:13,010 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <ic8234.upco.es, 20941/4(=5235.25)>
+2020-06-07 21:07:13,010 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <ip-200-56-225-61-mty.marcatel.net.mx, 2869/1(=2869.0)>
+2020-06-07 21:07:13,011 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <ip68-228-43-49.tc.ph.cox.net, 68712/22(=3123.2727)>
+2020-06-07 21:07:13,011 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <ipcorp-c8b07af1.terraempresas.com.br, 7368/1(=7368.0)>
+2020-06-07 21:07:13,012 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <jacksonproject.cnc.bc.ca, 22650/8(=2831.25)>
+2020-06-07 21:07:13,012 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <korell2.cc.gatech.edu, 2869/1(=2869.0)>
+2020-06-07 21:07:13,012 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <l07v-1-17.d1.club-internet.fr, 3169/1(=3169.0)>
+2020-06-07 21:07:13,012 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <ladybug.cns.vt.edu, 24099/5(=4819.8)>
+2020-06-07 21:07:13,013 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lhr003a.dhl.com, 30310/13(=2331.5386)>
+2020-06-07 21:07:13,013 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1000.inktomisearch.com, 7529/1(=7529.0)>
+2020-06-07 21:07:13,013 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1007.inktomisearch.com, 68/1(=68.0)>
+2020-06-07 21:07:13,013 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1008.inktomisearch.com, 627/3(=209.0)>
+2020-06-07 21:07:13,013 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1016.inktomisearch.com, 209/1(=209.0)>
+2020-06-07 21:07:13,013 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1018.inktomisearch.com, 209/1(=209.0)>
+2020-06-07 21:07:13,013 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1024.inktomisearch.com, 544/8(=68.0)>
+2020-06-07 21:07:13,013 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1025.inktomisearch.com, 209/1(=209.0)>
+2020-06-07 21:07:13,014 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1027.inktomisearch.com, 4824/2(=2412.0)>
+2020-06-07 21:07:13,014 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1028.inktomisearch.com, 209/1(=209.0)>
+2020-06-07 21:07:13,014 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1031.inktomisearch.com, 209/1(=209.0)>
+2020-06-07 21:07:13,014 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1036.inktomisearch.com, 5415/7(=773.5714)>
+2020-06-07 21:07:13,014 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1048.inktomisearch.com, 340/5(=68.0)>
+2020-06-07 21:07:13,014 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1052.inktomisearch.com, 68/1(=68.0)>
+2020-06-07 21:07:13,015 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1053.inktomisearch.com, 209/1(=209.0)>
+2020-06-07 21:07:13,015 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1061.inktomisearch.com, 209/1(=209.0)>
+2020-06-07 21:07:13,015 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1073.inktomisearch.com, 418/2(=209.0)>
+2020-06-07 21:07:13,015 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1088.inktomisearch.com, 209/1(=209.0)>
+2020-06-07 21:07:13,015 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1089.inktomisearch.com, 209/1(=209.0)>
+2020-06-07 21:07:13,015 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1090.inktomisearch.com, 3860/1(=3860.0)>
+2020-06-07 21:07:13,015 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1105.inktomisearch.com, 209/1(=209.0)>
+2020-06-07 21:07:13,015 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1115.inktomisearch.com, 4156/1(=4156.0)>
+2020-06-07 21:07:13,015 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1117.inktomisearch.com, 11180/3(=3726.6667)>
+2020-06-07 21:07:13,015 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1120.inktomisearch.com, 5234/1(=5234.0)>
+2020-06-07 21:07:13,016 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1123.inktomisearch.com, 8876/2(=4438.0)>
+2020-06-07 21:07:13,016 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1125.inktomisearch.com, 627/3(=209.0)>
+2020-06-07 21:07:13,016 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1145.inktomisearch.com, 5239/4(=1309.75)>
+2020-06-07 21:07:13,016 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1153.inktomisearch.com, 418/2(=209.0)>
+2020-06-07 21:07:13,016 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1156.inktomisearch.com, 4828/2(=2414.0)>
+2020-06-07 21:07:13,016 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1159.inktomisearch.com, 209/1(=209.0)>
+2020-06-07 21:07:13,016 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1160.inktomisearch.com, 0/1(=0.0)>
+2020-06-07 21:07:13,016 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1162.inktomisearch.com, 7768/2(=3884.0)>
+2020-06-07 21:07:13,017 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1164.inktomisearch.com, 5592/2(=2796.0)>
+2020-06-07 21:07:13,017 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1168.inktomisearch.com, 209/1(=209.0)>
+2020-06-07 21:07:13,017 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1212.inktomisearch.com, 3169/1(=3169.0)>
+2020-06-07 21:07:13,017 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1216.inktomisearch.com, 209/1(=209.0)>
+2020-06-07 21:07:13,017 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1220.inktomisearch.com, 209/1(=209.0)>
+2020-06-07 21:07:13,017 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1223.inktomisearch.com, 3883/2(=1941.5)>
+2020-06-07 21:07:13,017 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lj1231.inktomisearch.com, 209/1(=209.0)>
+2020-06-07 21:07:13,017 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <lordgun.org, 2869/1(=2869.0)>
+2020-06-07 21:07:13,018 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <mail.geovariances.fr, 138281/23(=6012.2173)>
+2020-06-07 21:07:13,019 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <market-mail.panduit.com, 99393/29(=3427.3447)>
+2020-06-07 21:07:13,019 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <mcl02.cnc.bc.ca, 43518/4(=10879.5)>
+2020-06-07 21:07:13,019 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <mmscrm07-2.sac.overture.com, 204/3(=68.0)>
+2020-06-07 21:07:13,019 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <mth-fgw.ballarat.edu.au, 38141/7(=5448.7144)>
+2020-06-07 21:07:13,020 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <nb-bolz.cremona.polimi.it, 2300/1(=2300.0)>
+2020-06-07 21:07:13,020 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <ns.mou.cz, 2300/1(=2300.0)>
+2020-06-07 21:07:13,020 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <ns.wtbts.org, 27736/12(=2311.3333)>
+2020-06-07 21:07:13,020 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <ns3.vonroll.ch, 17915/3(=5971.6665)>
+2020-06-07 21:07:13,021 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <ogw.netinfo.bg, 52402/19(=2758.0)>
+2020-06-07 21:07:13,021 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <osdlab.eic.nctu.edu.tw, 269/1(=269.0)>
+2020-06-07 21:07:13,021 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <p213.54.168.132.tisdip.tiscali.de, 69429/12(=5785.75)>
+2020-06-07 21:07:13,022 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <p5083cd5d.dip0.t-ipconnect.de, 7368/1(=7368.0)>
+2020-06-07 21:07:13,023 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <pc-030-040.eco.rug.nl, 7368/1(=7368.0)>
+2020-06-07 21:07:13,024 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <pc3-registry-stockholm.telia.net, 122885/13(=9452.692)>
+2020-06-07 21:07:13,024 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <pd95f99f2.dip.t-dialin.net, 2869/1(=2869.0)>
+2020-06-07 21:07:13,024 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <pd9e50809.dip.t-dialin.net, 2869/1(=2869.0)>
+2020-06-07 21:07:13,024 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <pd9e761cf.dip.t-dialin.net, 2300/1(=2300.0)>
+2020-06-07 21:07:13,024 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <pd9eb1396.dip.t-dialin.net, 2300/1(=2300.0)>
+2020-06-07 21:07:13,024 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <pntn02m05-129.bctel.ca, 3095/1(=3095.0)>
+2020-06-07 21:07:13,024 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <pool-68-160-195-60.ny325.east.verizon.net, 18621/5(=3724.2)>
+2020-06-07 21:07:13,025 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <ppp2.p33.is.com.ua, 10746/3(=3582.0)>
+2020-06-07 21:07:13,025 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <proxy0.haifa.ac.il, 62152/19(=3271.158)>
+2020-06-07 21:07:13,025 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <prxint-sxb2.e-i.net, 4022/1(=4022.0)>
+2020-06-07 21:07:13,026 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <prxint-sxb3.e-i.net, 129557/14(=9254.071)>
+2020-06-07 21:07:13,026 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <px7wh.vc.shawcable.net, 7649/1(=7649.0)>
+2020-06-07 21:07:13,026 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <rouble.cc.strath.ac.uk, 2869/1(=2869.0)>
+2020-06-07 21:07:13,026 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <spica.ukc.ac.uk, 3947/2(=1973.5)>
+2020-06-07 21:07:13,026 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <spot.nnacorp.com, 23162/5(=4632.4)>
+2020-06-07 21:07:13,027 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <trrc02m01-40.bctel.ca, 12287/4(=3071.75)>
+2020-06-07 21:07:13,028 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <ts04-ip92.hevanet.com, 124082/28(=4431.5)>
+2020-06-07 21:07:13,028 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <ts05-ip44.hevanet.com, 125673/16(=7854.5625)>
+2020-06-07 21:07:13,029 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <user-0c8hdkf.cable.mindspring.com, 26861/5(=5372.2)>
+2020-06-07 21:07:13,029 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <vlp181.vlp.fi, 2869/1(=2869.0)>
+2020-06-07 21:07:13,029 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <watchguard.cgmatane.qc.ca, 11482/2(=5741.0)>
+2020-06-07 21:07:13,029 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <wc03.mtnk.rnc.net.cable.rogers.com, 10936/1(=10936.0)>
+2020-06-07 21:07:13,029 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <wc09.mtnk.rnc.net.cable.rogers.com, 32582/3(=10860.667)>
+2020-06-07 21:07:13,029 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <wwwcache.lanl.gov, 2869/1(=2869.0)>
+2020-06-07 21:07:13,030 INFO [main] edu.mum.cs522.project1.AverageComputation$Reduce: <yongsan-cache.korea.army.mil, 12224/4(=3056.0)>
+2020-06-07 21:07:13,366 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1591578330124_0001_r_000000_0 is done. And is in the process of committing
+2020-06-07 21:07:13,397 INFO [main] org.apache.hadoop.mapred.Task: Task attempt_1591578330124_0001_r_000000_0 is allowed to commit now
+2020-06-07 21:07:13,441 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_1591578330124_0001_r_000000_0' to hdfs://dafd8627007e:9000/user/cloudera/average/output/_temporary/1/task_1591578330124_0001_r_000000
+2020-06-07 21:07:13,458 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1591578330124_0001_r_000000_0' done.
+2020-06-07 21:07:13,459 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Stopping ReduceTask metrics system...
+2020-06-07 21:07:13,460 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system stopped.
+2020-06-07 21:07:13,460 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system shutdown complete.

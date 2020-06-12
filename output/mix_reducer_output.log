@@ -1,0 +1,57 @@
+2020-06-07 21:21:38,591 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2020-06-07 21:21:38,742 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2020-06-07 21:21:38,742 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system started
+2020-06-07 21:21:38,762 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2020-06-07 21:21:38,762 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1591578330124_0005, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@2373d3b6)
+2020-06-07 21:21:38,941 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2020-06-07 21:21:39,424 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-root/nm-local-dir/usercache/root/appcache/application_1591578330124_0005
+2020-06-07 21:21:39,921 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2020-06-07 21:21:40,577 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2020-06-07 21:21:40,594 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2020-06-07 21:21:40,607 INFO [main] org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@7519d715
+2020-06-07 21:21:40,985 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2020-06-07 21:21:40,997 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: ---REDUCER PROCESS---
+2020-06-07 21:21:41,004 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: new <A10, (A12=0.08695652)>
+2020-06-07 21:21:41,004 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <A10, (B11=0.17391305)>
+2020-06-07 21:21:41,004 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <A10, (B12=0.2173913)>
+2020-06-07 21:21:41,004 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <A10, (C31=0.26086956)>
+2020-06-07 21:21:41,005 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <A10, (D76=0.26086956)>
+2020-06-07 21:21:41,005 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: new <A12, (A10=0.083333336)>
+2020-06-07 21:21:41,006 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <A12, (B11=0.16666667)>
+2020-06-07 21:21:41,006 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <A12, (B12=0.25)>
+2020-06-07 21:21:41,006 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <A12, (C31=0.33333334)>
+2020-06-07 21:21:41,006 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <A12, (D76=0.16666667)>
+2020-06-07 21:21:41,008 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: new <B11, (A10=0.10526316)>
+2020-06-07 21:21:41,008 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <B11, (A12=0.10526316)>
+2020-06-07 21:21:41,008 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <B11, (B12=0.21052632)>
+2020-06-07 21:21:41,008 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <B11, (C31=0.36842105)>
+2020-06-07 21:21:41,009 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <B11, (D76=0.21052632)>
+2020-06-07 21:21:41,009 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: new <B12, (A10=0.06666667)>
+2020-06-07 21:21:41,010 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <B12, (A12=0.06666667)>
+2020-06-07 21:21:41,010 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <B12, (B11=0.26666668)>
+2020-06-07 21:21:41,010 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <B12, (C31=0.4)>
+2020-06-07 21:21:41,010 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <B12, (D76=0.2)>
+2020-06-07 21:21:41,011 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: new <C31, (A10=0.13333334)>
+2020-06-07 21:21:41,011 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <C31, (A12=0.13333334)>
+2020-06-07 21:21:41,011 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <C31, (B11=0.2)>
+2020-06-07 21:21:41,012 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <C31, (B12=0.26666668)>
+2020-06-07 21:21:41,012 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <C31, (D76=0.26666668)>
+2020-06-07 21:21:41,013 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: new <D76, (A10=0.055555556)>
+2020-06-07 21:21:41,013 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <D76, (A12=0.11111111)>
+2020-06-07 21:21:41,013 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <D76, (B11=0.22222222)>
+2020-06-07 21:21:41,013 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <D76, (B12=0.2777778)>
+2020-06-07 21:21:41,014 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: add <D76, (C31=0.33333334)>
+2020-06-07 21:21:41,014 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: ---REDUCER OUTPUT---
+2020-06-07 21:21:41,016 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: <A10, [(A12=0.08695652), (B11=0.17391305), (B12=0.2173913), (C31=0.26086956), (D76=0.26086956)]>
+2020-06-07 21:21:41,017 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: <A12, [(A10=0.083333336), (B11=0.16666667), (B12=0.25), (C31=0.33333334), (D76=0.16666667)]>
+2020-06-07 21:21:41,017 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: <B11, [(A10=0.10526316), (A12=0.10526316), (B12=0.21052632), (C31=0.36842105), (D76=0.21052632)]>
+2020-06-07 21:21:41,017 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: <B12, [(A10=0.06666667), (A12=0.06666667), (B11=0.26666668), (C31=0.4), (D76=0.2)]>
+2020-06-07 21:21:41,017 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: <C31, [(A10=0.13333334), (A12=0.13333334), (B11=0.2), (B12=0.26666668), (D76=0.26666668)]>
+2020-06-07 21:21:41,018 INFO [main] edu.mum.cs522.project1.part4.MixAlgo$Reduce: <D76, [(A10=0.055555556), (A12=0.11111111), (B11=0.22222222), (B12=0.2777778), (C31=0.33333334)]>
+2020-06-07 21:21:41,300 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1591578330124_0005_r_000000_0 is done. And is in the process of committing
+2020-06-07 21:21:41,329 INFO [main] org.apache.hadoop.mapred.Task: Task attempt_1591578330124_0005_r_000000_0 is allowed to commit now
+2020-06-07 21:21:41,352 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_1591578330124_0005_r_000000_0' to hdfs://dafd8627007e:9000/user/cloudera/amazon/output-mix/_temporary/1/task_1591578330124_0005_r_000000
+2020-06-07 21:21:41,370 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1591578330124_0005_r_000000_0' done.
+2020-06-07 21:21:41,371 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Stopping ReduceTask metrics system...
+2020-06-07 21:21:41,371 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system stopped.
+2020-06-07 21:21:41,372 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system shutdown complete.

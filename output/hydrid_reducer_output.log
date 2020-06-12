@@ -1,0 +1,23 @@
+2020-06-08 12:13:40,622 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2020-06-08 12:13:40,775 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2020-06-08 12:13:40,775 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system started
+2020-06-08 12:13:40,796 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2020-06-08 12:13:40,796 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1591632421811_0002, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@1e92abdf)
+2020-06-08 12:13:40,958 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2020-06-08 12:13:41,460 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-root/nm-local-dir/usercache/root/appcache/application_1591632421811_0002
+2020-06-08 12:13:41,952 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2020-06-08 12:13:42,618 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2020-06-08 12:13:42,636 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2020-06-08 12:13:42,649 INFO [main] org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@7519d715
+2020-06-08 12:13:43,063 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2020-06-08 12:13:43,075 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Reduce: ---REDUCER OUTPUT---
+2020-06-08 12:13:43,079 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Reduce: <A12, [(B11=0.17391305), (B12=0.2173913), (A12=0.08695652), (D76=0.26086956), (C31=0.26086956)]>
+2020-06-08 12:13:43,080 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Reduce: <B11, [(B11=0.16666667), (B12=0.25), (A10=0.083333336), (D76=0.16666667), (C31=0.33333334)]>
+2020-06-08 12:13:43,081 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Reduce: <B12, [(B12=0.21052632), (A10=0.10526316), (A12=0.10526316), (D76=0.21052632), (C31=0.36842105)]>
+2020-06-08 12:13:43,082 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Reduce: <C31, [(B11=0.26666668), (A10=0.06666667), (A12=0.06666667), (D76=0.2), (C31=0.4)]>
+2020-06-08 12:13:43,083 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Reduce: <D76, [(B11=0.2), (B12=0.26666668), (A10=0.13333334), (A12=0.13333334), (D76=0.26666668)]>
+2020-06-08 12:13:43,084 INFO [main] edu.mum.cs522.project1.part4.HydridAlgo$Reduce: <D76, [(B11=0.22222222), (B12=0.2777778), (A10=0.055555556), (A12=0.11111111), (C31=0.33333334)]>
+2020-06-08 12:13:43,384 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1591632421811_0002_r_000000_0 is done. And is in the process of committing
+2020-06-08 12:13:43,424 INFO [main] org.apache.hadoop.mapred.Task: Task attempt_1591632421811_0002_r_000000_0 is allowed to commit now
+2020-06-08 12:13:43,451 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_1591632421811_0002_r_000000_0' to hdfs://dafd8627007e:9000/user/cloudera/amazon/output-hydrid/_temporary/1/task_1591632421811_0002_r_000000
+2020-06-08 12:13:43,469 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1591632421811_0002_r_000000_0' done.

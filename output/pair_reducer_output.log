@@ -1,0 +1,50 @@
+2020-06-07 21:20:19,983 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2020-06-07 21:20:20,133 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2020-06-07 21:20:20,133 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system started
+2020-06-07 21:20:20,154 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2020-06-07 21:20:20,154 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1591578330124_0003, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@2373d3b6)
+2020-06-07 21:20:20,320 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2020-06-07 21:20:20,829 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-root/nm-local-dir/usercache/root/appcache/application_1591578330124_0003
+2020-06-07 21:20:21,314 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2020-06-07 21:20:21,980 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2020-06-07 21:20:21,997 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2020-06-07 21:20:22,010 INFO [main] org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@430374c7
+2020-06-07 21:20:22,392 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2020-06-07 21:20:22,405 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: ---REDUCER OUTPUT---
+2020-06-07 21:20:22,406 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(A10, A12), 2/23(=0.08695652)>
+2020-06-07 21:20:22,407 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(A10, B11), 4/23(=0.17391305)>
+2020-06-07 21:20:22,408 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(A10, B12), 5/23(=0.2173913)>
+2020-06-07 21:20:22,408 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(A10, C31), 6/23(=0.26086956)>
+2020-06-07 21:20:22,408 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(A10, D76), 6/23(=0.26086956)>
+2020-06-07 21:20:22,409 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(A12, A10), 1/12(=0.083333336)>
+2020-06-07 21:20:22,410 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(A12, B11), 2/12(=0.16666667)>
+2020-06-07 21:20:22,410 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(A12, B12), 3/12(=0.25)>
+2020-06-07 21:20:22,410 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(A12, C31), 4/12(=0.33333334)>
+2020-06-07 21:20:22,411 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(A12, D76), 2/12(=0.16666667)>
+2020-06-07 21:20:22,411 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(B11, A10), 2/19(=0.10526316)>
+2020-06-07 21:20:22,412 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(B11, A12), 2/19(=0.10526316)>
+2020-06-07 21:20:22,412 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(B11, B12), 4/19(=0.21052632)>
+2020-06-07 21:20:22,412 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(B11, C31), 7/19(=0.36842105)>
+2020-06-07 21:20:22,413 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(B11, D76), 4/19(=0.21052632)>
+2020-06-07 21:20:22,413 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(B12, A10), 1/15(=0.06666667)>
+2020-06-07 21:20:22,413 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(B12, A12), 1/15(=0.06666667)>
+2020-06-07 21:20:22,414 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(B12, B11), 4/15(=0.26666668)>
+2020-06-07 21:20:22,414 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(B12, C31), 6/15(=0.4)>
+2020-06-07 21:20:22,414 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(B12, D76), 3/15(=0.2)>
+2020-06-07 21:20:22,415 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(C31, A10), 2/15(=0.13333334)>
+2020-06-07 21:20:22,415 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(C31, A12), 2/15(=0.13333334)>
+2020-06-07 21:20:22,415 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(C31, B11), 3/15(=0.2)>
+2020-06-07 21:20:22,416 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(C31, B12), 4/15(=0.26666668)>
+2020-06-07 21:20:22,416 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(C31, D76), 4/15(=0.26666668)>
+2020-06-07 21:20:22,417 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(D76, A10), 1/18(=0.055555556)>
+2020-06-07 21:20:22,417 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(D76, A12), 2/18(=0.11111111)>
+2020-06-07 21:20:22,417 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(D76, B11), 4/18(=0.22222222)>
+2020-06-07 21:20:22,418 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(D76, B12), 5/18(=0.2777778)>
+2020-06-07 21:20:22,418 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Reduce: <(D76, C31), 6/18(=0.33333334)>
+2020-06-07 21:20:22,682 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1591578330124_0003_r_000000_0 is done. And is in the process of committing
+2020-06-07 21:20:22,712 INFO [main] org.apache.hadoop.mapred.Task: Task attempt_1591578330124_0003_r_000000_0 is allowed to commit now
+2020-06-07 21:20:22,731 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_1591578330124_0003_r_000000_0' to hdfs://dafd8627007e:9000/user/cloudera/amazon/output-pair/_temporary/1/task_1591578330124_0003_r_000000
+2020-06-07 21:20:22,750 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1591578330124_0003_r_000000_0' done.
+2020-06-07 21:20:22,751 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Stopping ReduceTask metrics system...
+2020-06-07 21:20:22,751 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system stopped.
+2020-06-07 21:20:22,752 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system shutdown complete.

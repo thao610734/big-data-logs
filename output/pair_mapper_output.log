@@ -1,0 +1,130 @@
+2020-06-07 21:20:13,101 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2020-06-07 21:20:13,260 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2020-06-07 21:20:13,260 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system started
+2020-06-07 21:20:13,281 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2020-06-07 21:20:13,281 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1591578330124_0003, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@2f51cd27)
+2020-06-07 21:20:13,456 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2020-06-07 21:20:13,910 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-root/nm-local-dir/usercache/root/appcache/application_1591578330124_0003
+2020-06-07 21:20:14,447 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2020-06-07 21:20:15,089 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2020-06-07 21:20:15,107 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2020-06-07 21:20:15,342 INFO [main] org.apache.hadoop.mapred.MapTask: Processing split: hdfs://dafd8627007e:9000/user/cloudera/amazon/input/test_data:0+112
+2020-06-07 21:20:15,423 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2020-06-07 21:20:15,423 INFO [main] org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2020-06-07 21:20:15,423 INFO [main] org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2020-06-07 21:20:15,423 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2020-06-07 21:20:15,423 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2020-06-07 21:20:15,433 INFO [main] org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2020-06-07 21:20:15,461 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: ---MAPPER OUTPUT---
+2020-06-07 21:20:15,469 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B11, C31), 1), ((B11, *), 1)>
+2020-06-07 21:20:15,469 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B11, A10), 1), ((B11, *), 1)>
+2020-06-07 21:20:15,469 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B11, D76), 1), ((B11, *), 1)>
+2020-06-07 21:20:15,469 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B11, A12), 1), ((B11, *), 1)>
+2020-06-07 21:20:15,469 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B11, B12), 1), ((B11, *), 1)>
+2020-06-07 21:20:15,470 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B11, C31), 1), ((B11, *), 1)>
+2020-06-07 21:20:15,470 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B11, D76), 1), ((B11, *), 1)>
+2020-06-07 21:20:15,470 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B11, C31), 1), ((B11, *), 1)>
+2020-06-07 21:20:15,474 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B11, A10), 1), ((B11, *), 1)>
+2020-06-07 21:20:15,475 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B11, B12), 1), ((B11, *), 1)>
+2020-06-07 21:20:15,475 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B11, D76), 1), ((B11, *), 1)>
+2020-06-07 21:20:15,475 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B11, C31), 1), ((B11, *), 1)>
+2020-06-07 21:20:15,475 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((C31, A10), 1), ((C31, *), 1)>
+2020-06-07 21:20:15,475 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((C31, D76), 1), ((C31, *), 1)>
+2020-06-07 21:20:15,475 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((C31, A12), 1), ((C31, *), 1)>
+2020-06-07 21:20:15,475 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((C31, B12), 1), ((C31, *), 1)>
+2020-06-07 21:20:15,475 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A10, D76), 1), ((A10, *), 1)>
+2020-06-07 21:20:15,475 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A10, A12), 1), ((A10, *), 1)>
+2020-06-07 21:20:15,476 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A10, B12), 1), ((A10, *), 1)>
+2020-06-07 21:20:15,476 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A10, C31), 1), ((A10, *), 1)>
+2020-06-07 21:20:15,476 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A10, D76), 1), ((A10, *), 1)>
+2020-06-07 21:20:15,476 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A10, C31), 1), ((A10, *), 1)>
+2020-06-07 21:20:15,476 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((D76, A12), 1), ((D76, *), 1)>
+2020-06-07 21:20:15,476 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((D76, B12), 1), ((D76, *), 1)>
+2020-06-07 21:20:15,476 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((D76, C31), 1), ((D76, *), 1)>
+2020-06-07 21:20:15,476 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A12, B12), 1), ((A12, *), 1)>
+2020-06-07 21:20:15,476 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A12, C31), 1), ((A12, *), 1)>
+2020-06-07 21:20:15,477 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A12, D76), 1), ((A12, *), 1)>
+2020-06-07 21:20:15,477 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A12, C31), 1), ((A12, *), 1)>
+2020-06-07 21:20:15,477 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A12, A10), 1), ((A12, *), 1)>
+2020-06-07 21:20:15,477 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A12, B12), 1), ((A12, *), 1)>
+2020-06-07 21:20:15,477 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A12, D76), 1), ((A12, *), 1)>
+2020-06-07 21:20:15,477 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A12, C31), 1), ((A12, *), 1)>
+2020-06-07 21:20:15,477 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A12, B11), 1), ((A12, *), 1)>
+2020-06-07 21:20:15,477 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B12, C31), 1), ((B12, *), 1)>
+2020-06-07 21:20:15,477 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B12, D76), 1), ((B12, *), 1)>
+2020-06-07 21:20:15,477 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B12, C31), 1), ((B12, *), 1)>
+2020-06-07 21:20:15,478 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B12, A10), 1), ((B12, *), 1)>
+2020-06-07 21:20:15,478 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((C31, D76), 1), ((C31, *), 1)>
+2020-06-07 21:20:15,478 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((D76, C31), 1), ((D76, *), 1)>
+2020-06-07 21:20:15,478 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((D76, A10), 1), ((D76, *), 1)>
+2020-06-07 21:20:15,478 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((D76, B12), 1), ((D76, *), 1)>
+2020-06-07 21:20:15,478 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((C31, A10), 1), ((C31, *), 1)>
+2020-06-07 21:20:15,478 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((C31, B12), 1), ((C31, *), 1)>
+2020-06-07 21:20:15,478 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((C31, D76), 1), ((C31, *), 1)>
+2020-06-07 21:20:15,478 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A10, B12), 1), ((A10, *), 1)>
+2020-06-07 21:20:15,479 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A10, D76), 1), ((A10, *), 1)>
+2020-06-07 21:20:15,479 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A10, C31), 1), ((A10, *), 1)>
+2020-06-07 21:20:15,479 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A10, B11), 1), ((A10, *), 1)>
+2020-06-07 21:20:15,479 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B12, D76), 1), ((B12, *), 1)>
+2020-06-07 21:20:15,479 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B12, C31), 1), ((B12, *), 1)>
+2020-06-07 21:20:15,479 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B12, B11), 1), ((B12, *), 1)>
+2020-06-07 21:20:15,479 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((D76, C31), 1), ((D76, *), 1)>
+2020-06-07 21:20:15,479 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((D76, B11), 1), ((D76, *), 1)>
+2020-06-07 21:20:15,480 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((C31, B11), 1), ((C31, *), 1)>
+2020-06-07 21:20:15,480 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A10, D76), 1), ((A10, *), 1)>
+2020-06-07 21:20:15,480 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A10, D76), 1), ((A10, *), 1)>
+2020-06-07 21:20:15,480 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A10, B12), 1), ((A10, *), 1)>
+2020-06-07 21:20:15,480 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A10, B11), 1), ((A10, *), 1)>
+2020-06-07 21:20:15,480 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A10, C31), 1), ((A10, *), 1)>
+2020-06-07 21:20:15,480 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A10, D76), 1), ((A10, *), 1)>
+2020-06-07 21:20:15,480 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A10, B12), 1), ((A10, *), 1)>
+2020-06-07 21:20:15,481 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A10, C31), 1), ((A10, *), 1)>
+2020-06-07 21:20:15,481 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A10, B11), 1), ((A10, *), 1)>
+2020-06-07 21:20:15,481 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A10, A12), 1), ((A10, *), 1)>
+2020-06-07 21:20:15,481 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A10, C31), 1), ((A10, *), 1)>
+2020-06-07 21:20:15,481 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A10, B12), 1), ((A10, *), 1)>
+2020-06-07 21:20:15,481 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A10, B11), 1), ((A10, *), 1)>
+2020-06-07 21:20:15,481 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((D76, B12), 1), ((D76, *), 1)>
+2020-06-07 21:20:15,481 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((D76, B11), 1), ((D76, *), 1)>
+2020-06-07 21:20:15,482 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((D76, C31), 1), ((D76, *), 1)>
+2020-06-07 21:20:15,482 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B12, B11), 1), ((B12, *), 1)>
+2020-06-07 21:20:15,482 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B12, C31), 1), ((B12, *), 1)>
+2020-06-07 21:20:15,482 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B12, D76), 1), ((B12, *), 1)>
+2020-06-07 21:20:15,482 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B11, C31), 1), ((B11, *), 1)>
+2020-06-07 21:20:15,482 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B11, D76), 1), ((B11, *), 1)>
+2020-06-07 21:20:15,482 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B11, B12), 1), ((B11, *), 1)>
+2020-06-07 21:20:15,482 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B11, C31), 1), ((B11, *), 1)>
+2020-06-07 21:20:15,482 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((C31, D76), 1), ((C31, *), 1)>
+2020-06-07 21:20:15,483 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((C31, B12), 1), ((C31, *), 1)>
+2020-06-07 21:20:15,483 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((D76, B12), 1), ((D76, *), 1)>
+2020-06-07 21:20:15,483 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((D76, C31), 1), ((D76, *), 1)>
+2020-06-07 21:20:15,483 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((D76, B11), 1), ((D76, *), 1)>
+2020-06-07 21:20:15,483 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((D76, A12), 1), ((D76, *), 1)>
+2020-06-07 21:20:15,483 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((D76, C31), 1), ((D76, *), 1)>
+2020-06-07 21:20:15,483 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((D76, B12), 1), ((D76, *), 1)>
+2020-06-07 21:20:15,483 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((D76, B11), 1), ((D76, *), 1)>
+2020-06-07 21:20:15,483 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B12, C31), 1), ((B12, *), 1)>
+2020-06-07 21:20:15,483 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B12, B11), 1), ((B12, *), 1)>
+2020-06-07 21:20:15,483 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B12, A12), 1), ((B12, *), 1)>
+2020-06-07 21:20:15,484 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B12, C31), 1), ((B12, *), 1)>
+2020-06-07 21:20:15,484 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((C31, B11), 1), ((C31, *), 1)>
+2020-06-07 21:20:15,484 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((C31, A12), 1), ((C31, *), 1)>
+2020-06-07 21:20:15,484 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B11, A12), 1), ((B11, *), 1)>
+2020-06-07 21:20:15,484 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B11, C31), 1), ((B11, *), 1)>
+2020-06-07 21:20:15,484 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B11, B12), 1), ((B11, *), 1)>
+2020-06-07 21:20:15,484 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A12, C31), 1), ((A12, *), 1)>
+2020-06-07 21:20:15,484 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A12, B12), 1), ((A12, *), 1)>
+2020-06-07 21:20:15,484 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((A12, B11), 1), ((A12, *), 1)>
+2020-06-07 21:20:15,485 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((C31, B12), 1), ((C31, *), 1)>
+2020-06-07 21:20:15,485 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((C31, B11), 1), ((C31, *), 1)>
+2020-06-07 21:20:15,485 INFO [main] edu.mum.cs522.project1.part2.PairAlgo$Map: <((B12, B11), 1), ((B12, *), 1)>
+2020-06-07 21:20:15,496 INFO [main] org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2020-06-07 21:20:15,496 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2020-06-07 21:20:15,496 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 2244; bufvoid = 104857600
+2020-06-07 21:20:15,496 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 26213584(104854336); length = 813/6553600
+2020-06-07 21:20:15,522 INFO [main] org.apache.hadoop.mapred.MapTask: Finished spill 0
+2020-06-07 21:20:15,540 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1591578330124_0003_m_000000_0 is done. And is in the process of committing
+2020-06-07 21:20:15,596 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1591578330124_0003_m_000000_0' done.
+2020-06-07 21:20:15,597 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Stopping MapTask metrics system...
+2020-06-07 21:20:15,597 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system stopped.
+2020-06-07 21:20:15,598 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system shutdown complete.
